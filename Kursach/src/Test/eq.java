@@ -46,7 +46,7 @@ float result;
  Double.parseDouble(peremenaya1.getText());
  double price =
  Double.parseDouble(priceField.getText());
- double fuel = average / 100.0 * way;
+ double fuel = average / 1000.0 * way;
  double cost = fuel * price;
  
  JOptionPane.showMessageDialog(null, "Понадобится "+ fuel + " литров топлива,обойдётся в "+ cost ,"Все",JOptionPane.INFORMATION_MESSAGE); 
